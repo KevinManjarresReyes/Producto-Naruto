@@ -1,0 +1,59 @@
+.character-card {
+    border: 1px solid #ccc;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-color: #cbd5e1;
+    border-radius: 8px;
+}
+
+.character-info {
+    flex: 1;
+}
+
+.character-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.character-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.character-image {
+    width: 192px;
+    height: 192px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.character-details {
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.image-selector {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.thumbnail {
+    width: 56px;
+    height: 56px;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.thumbnail:hover {
+    width: 64px;
+    height: 64px;
+}

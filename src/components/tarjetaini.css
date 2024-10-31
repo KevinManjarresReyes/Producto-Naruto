@@ -1,0 +1,54 @@
+.character-card {
+    border: 1px solid #781a1a;
+ 
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.character-link {
+    display: flex;
+    padding: 20px;
+    gap: 15px;
+    text-decoration: none;
+    color: inherit;
+    transition: padding 0.7s ease-in-out;
+}
+
+.character-link:hover {
+    padding: 25px;
+}
+
+.character-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.character-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+
+.character-image {
+    width: 192px;
+    height: 192px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.character-birthdate {
+    margin-left: 10px;
+    font-size: 1rem;
+}
+
+.character-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    margin-left: 20px;
+}
